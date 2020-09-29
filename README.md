@@ -11,6 +11,7 @@
 
   <li><h4>Http/Controllers/HomeController  </h4>
    <p>增加functions handleAdmin/handleTenant/handleLandlord</p>
+   <p>在首頁顯示他的所有房屋物件</p>
 </li>
 
   <li><h4>Http/Controllers/HomeController  </h4>
