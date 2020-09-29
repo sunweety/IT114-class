@@ -30,14 +30,12 @@ class HomeController extends Controller
     {
         return view('handleAdmin');
     }
-
-    public function handleTenant()
+    public function handletenant()
     {
-        return view('handleTenant');
+        return view('handletenant');
     }
-
-    public function handleLandlord()
+    public function handlelandlord()
     {
-        return view('handleLandlord');
+        return view('handlelandlord');
     }
 }
