@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+use App\Models\House;
+use App\Models\Landlord;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -30,12 +33,19 @@ class HomeController extends Controller
     {
         return view('handleAdmin');
     }
-    public function handletenant()
+
+    public function handleTenant()
     {
-        return view('handletenant');
+        $tenant = User::where('type', 3)->value('card_id');
+        $houses = House::where('card_id', $tenant)->get();
+        return view('handleTenant', compact('houses'));
     }
-    public function handlelandlord()
+
+    public function handleLandlord()
     {
-        return view('handlelandlord');
+        $landlord = User::where('type', 2)->value('card_id');
+        $houses = House::where('card_id', $landlord)->get();
+        //dd($houses);
+        return view('handleLandlord', compact('houses'));
     }
 }
