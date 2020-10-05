@@ -1,7 +1,16 @@
 # IT114-class
 
 <h2>不同身分登入者內容修改</h2>
-
+<hr>
+<h3>
+務必下載：
+   <ol>
+      <li> Http/Controllers</li>
+      <li> Http/Middleware</li>
+      <li> Http/Kernel.php</li>
+      <li> Models</li>
+   </ol>
+</h3>
 <h3>Models/User</h3>
 <p>更新$fillable的內容</p>
 <ul>
