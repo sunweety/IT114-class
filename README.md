@@ -3,12 +3,15 @@
 <h2>不同身分登入者內容修改</h2>
 <hr>
 <h3>
+Database 名稱：laravel
 務必下載：
    <ol>
       <li> Http/Controllers</li>
       <li> Http/Middleware</li>
       <li> Http/Kernel.php</li>
       <li> Models</li>
+      <li> web.php</li>
+      <li> resources/views -->可以看一下簡單的功能</li>
    </ol>
 </h3>
 <h3>Models/User</h3>
