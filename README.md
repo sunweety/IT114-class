@@ -10,8 +10,8 @@ Database 名稱：laravel
       <li> Http/Middleware</li>
       <li> Http/Kernel.php</li>
       <li> Models</li>
-      <li> web.php</li>
-      <li> resources/views -->可以看一下簡單的功能</li>
+      <li> web.php --> 丟進routes資料夾</li>
+      <li> views --> 丟進resources資料夾，可以看一下現有頁面及簡單功能</li>
    </ol>
 </h3>
 <h3>Models/User</h3>
