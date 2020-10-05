@@ -22,4 +22,4 @@ class Admin
 
         return redirect('home')->with('error', "Only admin can access!");
     }
-}
+} 
